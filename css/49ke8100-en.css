@@ -1,0 +1,335 @@
+.vsmart-49ke { opacity:1 !important; -webkit-animation:unset !important; animation:unset !important; }
+.is-vsmart.vsmart-49ke{
+  padding:0;
+}
+.vsmart-49ke .fs-area-txt{
+  top:3vw;
+}
+.vsmart-49ke .fs-vsmart-icons{
+  top:12.5vw;
+  bottom:auto;
+}
+.vsmart-49ke .fs-vsmart-icons li p{
+  color:#000;
+}
+.vsmart-49ke .fs-area-txt p {
+  font-size:2.296vw;
+  font-weight:600;
+  font-style:normal;
+}
+.is-delicate.delicate-49ke{
+  padding:0;
+}
+.delicate-49ke .fs-area-pic{
+  width:100%;
+  left:auto;
+  -webkit-transition:none;
+  transition:none;
+  -webkit-transform:none;
+  transform:none;
+}
+.delicate-49ke .fs-delicate-box {
+  right:auto;
+  width:100%;
+  text-align:center;
+  top:0;
+  -webkit-transform:none;
+  transform:none;
+}
+.delicate-49ke .fs-delicate-box .fs-area-txt {
+  position:relative;
+  left:auto;
+  top:auto;
+  -webkit-transform:none;
+  transform:none;
+  padding:0;
+  width:56%;
+  margin:0 auto;
+  color:#fff;
+}
+.delicate-49ke .fs-delicate-box .fs-area-txt h2{
+  font-size:2.31vw;
+  margin-bottom:1.875vw;
+}
+.delicate-49ke .fs-delicate-box .fs-area-txt p{
+  font-size:1.25vw;
+}
+.dolby-49ke{
+  background-color:#fff;
+}
+.dolby-49ke .fs-area-txt{
+  width:72%;
+  color:#000;
+  bottom:auto;
+  top:10vw;
+}
+.dolby-49ke .fs-area-txt h2{
+  font-size:2.31vw;
+}
+
+.is-design-thing { background-image:url("/images/49ke8100/bg-design.jpg"); background-size:cover; background-position:center bottom; 
+  padding:6.25vw 0 3.6534446764vw 0; 
+}
+.is-design-thing .fs-title { 
+  width:46%;
+  margin:0 auto 2vw auto;
+  text-align:center;
+}
+.is-design-thing .fs-title h2 { 
+  font-size:2.31vw;
+  margin-bottom:1vw;
+}
+.is-design-thing .fs-title p {
+  font-size:0.989vw;
+  font-weight:500;
+  font-style:normal;
+}
+
+.is-design-thing .fs-area-pic { 
+  position:relative;
+  left:-7%;
+  width:72.8079331942vw; 
+  margin:0 auto; 
+}
+
+.is-voice-49ke .fs-box { padding-top:5.2vw; }
+.is-voice-49ke .fs-title { position:relative; top:0; margin-bottom:5.2192066806vw; 
+  position:relative;
+  left:auto;
+  top:auto;
+  margin:0 auto;
+  -webkit-transform:none;
+  transform:none;
+  width:54%;
+}
+.is-voice-49ke .fs-area-txt{
+  bottom:auto;
+  top:20vw;
+  margin-left:-1.27vw;
+}
+.byEn .is-voice-49ke .fs-area-txt{
+  margin-left:-0.755vw;
+}
+.is-processor-49ke .fs-box { display:-webkit-box; display:-ms-flexbox; display:flex; -webkit-box-orient:vertical; -webkit-box-direction:reverse; -ms-flex-direction:column-reverse; flex-direction:column-reverse; }
+.is-voice-49ke .fs-area-pic{
+  padding-top:4vw;
+}
+.is-voice-49ke .fs-title h2 { font-size:2.13vw; line-height:3.4504175365vw; margin-bottom:1.8267223382vw; }
+
+.is-voice-49ke .fs-title h2 span{ 
+  display:block;
+  font-size:2.13vw;
+  line-height:3.4504175365vw;
+  margin-bottom:1.8267223382vw; 
+}
+.is-voice-49ke .fs-title h2 span > span{
+  display:inline-block;
+  font-size:inherit;
+  margin-bottom:0;
+  line-height:inherit;
+}
+
+.is-voice-49ke .fs-title h2 .cmPic { width:6.5104vw; vertical-align:middle; }
+.is-voice-49ke .fs-title p { font-weight:500; font-style:normal; font-size:0.9895vw; line-height:1.50782881vw; color:#000000; }
+.is-voice-49ke .fs-area-txt-voice { bottom:0; -webkit-transform:translate(-50%, 50%); transform:translate(-50%, 50%); }
+.is-voice-49ke .fs-area-txt-voice .fs-voice-icon { margin:0 auto 0 auto; border-radius:50%; overflow:hidden; background-color:#000; width:10.5427974948vw; padding:1.2004175365vw; }
+.is-4k-49ke { padding-top:10.6993736952vw; }
+
+.byEn .is-voice-49ke .fs-title{
+  width:50%;
+}
+.byEn .is-voice-49ke .fs-title h2{
+  font-size:1.85vw;
+}
+.byEn .is-voice-49ke .fs-title h2 span{
+  font-size:1.85vw;
+}
+.byEn .is-voice-49ke .fs-title p{
+  font-size:0.8854vw ;
+}
+
+.is-design-thing .fs-title, .is-design-thing .fs-area-pic, .is-voice-49ke .fs-title{
+  opacity:0;
+}
+.is-design-thing .fs-title.fs-ani{
+  animation-name:fadeInUp;
+	-webkit-animation-name:fadeInUp;
+	animation-duration:1.5s;
+	-webkit-animation-duration:1.5s;
+	animation-delay:0.1s;
+	-webkit-animation-delay:0.1s;
+	animation-fill-mode:forwards;
+	-webkit-animation-fill-mode:forwards;
+}
+.is-design-thing .fs-area-pic.fs-ani, .is-voice-49ke .fs-title.fs-ani{
+  animation-name:fadeIn;
+	-webkit-animation-name:fadeIn;
+	animation-duration:1.5s;
+	-webkit-animation-duration:1.5s;
+	animation-delay:0.1s;
+	-webkit-animation-delay:0.1s;
+	animation-fill-mode:forwards;
+	-webkit-animation-fill-mode:forwards;
+}
+.is-processor.is-processor-49ke{
+  opacity:1;
+  -webkit-transition:none;
+  transition:none;
+}
+
+.is-processor-49ke .fs-area-pic{
+  -webkit-transform:translateY(70px);
+  transform:translateY(70px);
+}
+.is-processor-49ke .fs-area-pic.fs-ani {
+  animation-name:zezoTop;
+	-webkit-animation-name:zezoTop;
+	animation-duration:2.5s;
+  -webkit-animation-duration:2.5s;
+	animation-fill-mode:forwards;
+	-webkit-animation-fill-mode:forwards;
+}
+
+
+@media screen and (max-width:1100px) { 
+  .delicate-49ke .fs-delicate-box .fs-area-txt h2, 
+  .dolby-49ke .fs-area-txt h2, 
+  .is-design-thing .fs-title h2, 
+  .is-4k-49ke h2, 
+  .is-luxurious-49ke h2,
+  .is-processor-49ke h2{
+    font-size:5.3vw;
+    line-height:1.1;
+  }
+
+  .byEn .delicate-49ke .fs-delicate-box .fs-area-txt h2, 
+  .byEn .dolby-49ke .fs-area-txt h2, 
+  .byEn .is-design-thing .fs-title h2, 
+  .byEn .is-4k-49ke h2, 
+  .byEn .is-luxurious-49ke h2,
+  .byEn .is-processor-49ke h2{
+    font-size:4.9vw;
+    line-height:1.1;
+  }
+  
+  .vsmart-49ke { padding:0 0 0vw 0; }
+  .vsmart-49ke .fs-area-txt { 
+    width:86%;
+    left:7%;
+    top:7.6vw;
+  }
+  .vsmart-49ke .fs-vsmart-icons{
+    top:26vw;
+  }
+  .vsmart-49ke .fs-area-txt h2 { font-size:5.648vw; line-height:5.8796296296vw; }
+  .vsmart-49ke .fs-area-txt p { font-weight:300; font-size:3.0861111111vw; line-height:5.1740740741vw; text-transform:uppercase; }
+  .delicate-49ke{
+    padding-top:8vw;
+  }
+  .delicate-49ke .fs-delicate-box {
+    position:absolute;
+    top:5vw;
+    left:0;
+  }
+  .delicate-49ke .fs-delicate-box .fs-area-txt{
+    width:84%;
+  }
+  .delicate-49ke .fs-delicate-box .fs-area-txt h2 { margin-bottom:2.7777777778vw; }
+  .delicate-49ke .fs-delicate-box .fs-area-txt p {padding:0; font-size:2.1222222222vw; line-height:3.0861111111vw; }
+
+  .is-dolby.dolby-49ke .fs-box{
+    margin-top:auto;
+  }
+  .dolby-49ke .fs-area-txt{
+    width:82%;
+    top:6vw;
+  }
+  .dolby-49ke .fs-area-txt p{
+    font-size:2.1222222222vw;
+  }
+
+  .is-design-thing .fs-title { width:82.962962963vw; }
+  .is-design-thing .fs-title h2 {margin-bottom:2.7777777778vw; }
+  .is-design-thing .fs-title p { font-size:2.1222222222vw; line-height:3.0861111111vw;}
+  
+  .is-voice-49ke { background-color:#fff; padding:0; }
+  .byEn .is-voice-49ke .fs-title{ 
+    width:80%;
+  }
+  .is-voice-49ke .fs-title { 
+    top:0; 
+    position:relative; 
+    width:80.648%; 
+  }
+  .is-voice-49ke .fs-title h2, .byEn .is-voice-49ke .fs-title h2 { 
+    font-size:3.0555vw; 
+    line-height:6.1731481481vw; 
+    margin-bottom:2.7777777778vw; 
+  }
+  .is-voice-49ke.is-voice .fs-area-txt p {
+    font-size:2.407vw;
+  }
+
+
+
+  .is-voice-49ke .fs-title h2 span, .byEn .is-voice-49ke .fs-title h2 span{ 
+    font-size:3.0555vw; 
+  }
+  .is-voice-49ke .fs-title h2 .cmPic{
+    width:9.1666vw;
+  }
+
+  .is-voice-49ke .fs-box{
+    padding-top:8.333vw;
+  }
+  .is-voice-49ke .fs-title .fs-note, .byEn .is-voice-49ke .fs-title p{
+    color:#000; font-size:2.1222222222vw; 
+    line-height:3.0861111111vw; 
+    margin-bottom:4vw; 
+  }
+  .is-voice-49ke .fs-area-txt{
+    position:relative;
+    top:auto;
+    left:1.76vw;
+    width:90%;
+    margin:-2vw auto 0 auto;
+    -webkit-transform:none;
+    transform:none;
+  }
+  .byEn .is-voice-49ke .fs-area-txt{
+    left:2.685vw;
+    margin:-2vw auto 0 auto;
+  }
+  .is-voice-49ke .fs-area-pic{
+    padding-top:2vw;
+  }
+  .is-processor-49ke .fs-box { 
+    display:block;
+    padding:0;
+   }
+  
+  .byEn .is-processor .fs-area-txt{width:100%}
+  .is-processor-49ke .fs-area-txt h2, .is-processor-49ke .fs-area-txt .fs-box-content{
+    top:auto;
+  }
+
+  .is-processor-49ke .fs-area-txt .fs-box-content {width:100%}
+
+  .byEn .is-processor.is-processor-49ke .fs-area-txt,
+  .is-processor.is-processor-49ke .fs-area-txt {
+    width:90%;
+    margin:0 auto;
+  }
+  .delicate-49ke .fs-delicate-box .fs-area-txt p{
+    padding:0 5%;
+  }
+
+  
+  .is-processor-49ke .fs-area-txt .fs-box-content p { font-size:2.03vw; }
+
+  .is-processor-49ke .fs-area-pic.fs-ani {
+    animation-duration:1s;
+    -webkit-animation-duration:1s;
+  }
+
+}

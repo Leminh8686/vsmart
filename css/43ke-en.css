@@ -1,0 +1,322 @@
+.fs-section .fadeIn { opacity:0; -webkit-transition:all 1.7s ease-in-out; transition:all 1.7s ease-in-out; }
+.fs-section .fadeInLeft { opacity:0; margin-left:-5vw; -webkit-transition:all 1.25s ease-in-out; transition:all 1.25s ease-in-out; }
+.fs-section .fadeInRight { opacity:0; margin-left:5vw; -webkit-transition:all 1.25s ease-in-out; transition:all 1.25s ease-in-out; }
+.fs-section .fadeInTop { opacity:0; margin-top:-5vw; -webkit-transition:all 1.25s ease-in-out; transition:all 1.25s ease-in-out; }
+.fs-section .fadeInBottom { opacity:0; margin-top:5vw; -webkit-transition:all 1.25s ease-in-out; transition:all 1.25s ease-in-out; }
+.fs-section .fadeInBottomTransform { -webkit-transform:translateY(10%); transform:translateY(10%); -webkit-transition:all 1.25s ease-in-out; transition:all 1.25s ease-in-out; }
+.fs-section .fadeTopTransform { position:relative; -webkit-transform:translateY(-2vw); transform:translateY(-2vw); -webkit-transition:all 1.25s ease-in-out; transition:all 1.25s ease-in-out; }
+.fs-section .fadeInScale { opacity:0; -webkit-transition:all 1.25s ease-in-out; transition:all 1.25s ease-in-out; -webkit-transform:scale(0.9); transform:scale(0.9); }
+.fs-section .rotateScaleLeft { -webkit-transition:all 1.25s ease-in-out; transition:all 1.25s ease-in-out; -webkit-transform:rotate(-5deg) scale(0.95); transform:rotate(-5deg) scale(0.95); }
+.fs-section .rotateScaleRight { -webkit-transition:all 1.25s ease-in-out; transition:all 1.25s ease-in-out; -webkit-transform:rotate(5deg) scale(0.95); transform:rotate(5deg) scale(0.95); }
+.fs-section .toLeft { -webkit-transition:all 1.25s ease-in-out; transition:all 1.25s ease-in-out; }
+.fs-section .toRight { -webkit-transition:all 1.25s ease-in-out; transition:all 1.25s ease-in-out; }
+.fs-section.fs-ani .fadeIn { opacity:1; -webkit-transition:all 1.7s ease-in-out; transition:all 1.7s ease-in-out; }
+.fs-section.fs-ani .fadeInLeft { opacity:1; margin-left:0vw; -webkit-transition:all 1.25s ease-in-out; transition:all 1.25s ease-in-out; }
+.fs-section.fs-ani .fadeInRight { opacity:1; margin-left:0vw; -webkit-transition:all 1.25s ease-in-out; transition:all 1.25s ease-in-out; }
+.fs-section.fs-ani .fadeInTop { opacity:1; margin-top:0; -webkit-transition:all 1.25s ease-in-out; transition:all 1.25s ease-in-out; }
+.fs-section.fs-ani .fadeInBottom { opacity:1; margin-top:0; -webkit-transition:all 1.25s ease-in-out; transition:all 1.25s ease-in-out; }
+.fs-section.fs-ani .fadeInBottomTransform { -webkit-transform:translateY(0%); transform:translateY(0%); -webkit-transition:all 1.25s ease-in-out; transition:all 1.25s ease-in-out; }
+.fs-section.fs-ani .fadeTopTransform { -webkit-transform:translateY(0); transform:translateY(0); -webkit-transition:all 1.25s ease-in-out; transition:all 1.25s ease-in-out; }
+.fs-section.fs-ani .fadeInScale { opacity:1; -webkit-transition:all 1.25s ease-in-out; transition:all 1.25s ease-in-out; -webkit-transform:scale(1); transform:scale(1); }
+.fs-section.fs-ani .rotateScaleLeft { -webkit-transition:all 1.25s ease-in-out; transition:all 1.25s ease-in-out; -webkit-transform:rotate(0deg) scale(1); transform:rotate(0deg) scale(1); }
+.fs-section.fs-ani .rotateScaleRight { -webkit-transition:all 1.25s ease-in-out; transition:all 1.25s ease-in-out; -webkit-transform:rotate(0deg) scale(1); transform:rotate(0deg) scale(1); }
+
+
+.vsmart-kd43 .fs-box-content { 
+  position:absolute;
+  left:0;
+  bottom:8vw;
+  width:100%;
+}
+.vsmart-kd43 .fs-vsmart-icons {
+  position:relative;
+  left:auto;
+  bottom:auto;
+  z-index:1;
+}
+.vsmart-kd43 .fs-vsmart-icons li p{
+  color:#000;
+}
+.vsmart-kd43 .fs-area-txt { 
+  position:relative;
+  left:auto;
+  top:auto;
+  margin:0 auto; 
+  width:100%; 
+}
+.vsmart-kd43 .fs-area-txt h2 { 
+  font-size:3vw; 
+  color:#000; 
+  margin-bottom:2.0833333333vw; 
+}
+.is-vsmart.vsmart-kd43{
+  padding:0;
+}
+
+@-webkit-keyframes wave-animate {
+  0% {
+    transform:scale(0);
+    opacity:1;
+    transform-origin:center;
+  }
+  100% {
+    transform:scale(2);
+    opacity:0;
+    transform-origin:center;
+  }
+}
+
+@keyframes wave-animate {
+  0% {
+    transform:scale(0);
+    opacity:1;
+    transform-origin:center;
+  }
+  100% {
+    transform:scale(2);
+    opacity:0;
+    transform-origin:center;
+  }
+}
+
+.wave-sound{
+  position:absolute;
+    background:rgba(255, 255, 255, 0);
+    left:50%;
+    top:23%;
+    width:60vw;
+    height:60vw;
+    transform-style:preserve-3d;
+    -webkit-transform:translateX(-50%) rotateX(75deg);
+    transform:translateX(-50%) rotateX(75deg);
+    -webkit-backface-visibility:hidden;
+    -webkit-border-radius:50%;
+    border-radius:50%;
+}
+.wave-sound::before {
+  position:absolute;
+  background:rgba(255,255,255,0.3);
+  left:0;
+  top:0;
+  width:100%;
+  height:100%;
+  content:"";
+  display:block;
+  -webkit-border-radius:50%;
+  border-radius:50%;
+  -webkit-backface-visibility:hidden;
+  animation:wave-animate 4s infinite ease-out;
+}
+.wave-sound::after{
+  position:absolute;
+  background:rgba(255,255,255,0.3);
+  left:0;
+  top:0;
+  width:100%;
+  height:100%;
+  content:"";
+  display:block;
+  -webkit-border-radius:50%;
+  border-radius:50%;
+  -webkit-backface-visibility:hidden;
+  opacity:0;
+  animation:wave-animate 4s 2s infinite ease-out;
+}
+
+
+
+.delicate-kd43{
+    padding:0;
+    background-color:#fff;
+}
+.delicate-kd43 .fs-area-txt{
+  position:absolute;
+  left:50%;
+  top:5vw;
+  width:68%;
+  margin:0 auto;
+  text-align:center;
+  -webkit-transform:translateX(-50%);
+  transform:translateX(-50%);
+  z-index:1;
+  color:#fff;
+}
+.delicate-kd43 h2 {
+  font-size:3.28128vw;
+  line-height:1.1;
+}
+
+.delicate-kd43 .fs-area-pic{
+  width:100%;
+  left:auto;
+  -webkit-transition:none;
+  transition:none;
+  -webkit-transform:none;
+  transform:none;
+}
+
+.delicate-kd43 .fs-area-pic img {
+  -webkit-transform:translateY(70px);
+  transform:translateY(70px);
+}
+.delicate-kd43 .fs-area-pic img.fs-ani {
+	animation-name:zezoTop;
+	-webkit-animation-name:zezoTop;
+	animation-duration:2.5s;
+  -webkit-animation-duration:2.5s;
+	animation-fill-mode:forwards;
+	-webkit-animation-fill-mode:forwards;
+}
+
+
+.dolby-kd43 .fs-area-txt{
+  width:58%;
+  bottom:auto;
+  top:0;
+}
+
+.is-4k-kd43{
+  padding:5vw 0 0 0;
+}
+
+.voice-43kd .fs-title{
+  top:3vw;
+}
+.voice-43kd .fs-area-txt {
+  color:#000;
+  bottom:2vw;
+}
+.voice-43kd .fs-voice-icon{
+  margin:0 auto 6vw auto;
+}
+
+.luxurious-43kd{
+  padding:3vw 0;
+}
+
+/* .is-luxurious.luxurious-43kd h2 br{
+  display:block;
+} */
+
+@media screen and (max-width:1100px) { 
+  .is-luxurious.luxurious-43kd p br{
+    display:none;
+  }
+}
+
+@media screen and (max-width:1080px) { 
+  
+  .vsmart-kd43 .fs-box-content{
+    bottom:6vw;
+  }
+  .vsmart-kd43 .fs-area-txt h2{
+    font-size:6.6666vw;
+    margin-bottom:2.2vw;
+  }
+  .vsmart-kd43 .fs-area-txt p{
+    font-weight:700;
+    font-size:5vw;
+  }
+  .vsmart-kd43 .fs-vsmart-icons{
+    margin-top:5vw;
+  }
+  .fs-header-txt{
+    position:absolute;
+    left:0;
+    top:4vw;
+    width:100%;
+    text-align:center;
+  }
+  .fs-header-txt h2{
+    font-size:700;
+    font-style:normal;
+    font-size:5.37vw;
+    text-transform:uppercase;
+    padding:0 5%;
+    color:#fff;
+  }
+
+  .byEn .vsmart-kd43 .fs-area-txt h2{
+    margin-bottom:3.5vw;
+    font-size:4.8vw;
+  }
+
+  .byEn .vsmart-kd43 .fs-area-txt{
+    width:90vw;
+  }
+  .delicate-kd43 h2{
+    font-size:5.37vw;
+  }
+  .delicate-kd43 .fs-area-txt{
+    padding:7vw 0; 
+    width:80%;
+    position:relative;
+    left:auto;
+    top:auto;
+    color:#000;
+    -webit-transform:none;
+    transform:none;
+  }
+
+  .is-dolby.dolby-kd43 .fs-box{
+    margin-top:auto;
+  }
+  .dolby-kd43 .fs-area-txt{
+    width:84%;
+    top:-16vw;
+  }
+  .is-4k.is-4k-kd43{
+    padding:11vw 0 0 0;
+  }
+  .is-voice.voice-43kd .fs-title{
+    top:11vw;
+  }
+  .voice-43kd .fs-area-txt{
+    color:#fff;
+  }
+  .is-voice.voice-43kd{
+    padding:9px 0 24vw 0;
+  }
+  .voice-43kd .fs-voice-icon{
+    margin:0 auto 16vw auto;
+  }
+  .voice-43kd {
+    background-color:#fff;
+  }
+  .voice-43kd .fs-area-txt{
+    bottom:-26vw;
+    color:#000;
+  }
+  .luxurious-43kd{
+    padding:15vw 0;
+  }
+  .wave-sound{
+    top:29%;
+  }
+  .extra-txt{
+    padding:7.777vw 8% 0 8%;
+  }
+  .extra-txt p{
+    font-size:2.03vw;
+  }
+  .is-processor .fs-area-txt{
+    position: relative;
+    left:auto;
+    top:auto;
+    -webkit-transform:none;
+    transform:none;
+    margin:0 auto;
+  }
+  .is-processor {
+    padding-bottom:8vw;
+  }
+  .byEn .is-4k-kd43 h2{
+    font-size:5vw;
+  }
+}
+
+@media screen and (max-width:520px) { 
+  .vsmart-kd43 .fs-box-content {
+    padding:63vw 0 0 0;
+  }
+}

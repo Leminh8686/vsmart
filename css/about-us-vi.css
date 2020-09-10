@@ -1,0 +1,429 @@
+.h1, .h2, .h3 {
+    font-weight: 700;
+}
+
+.h1 {
+    font-size: 5.3vw;
+}
+
+.h2 {
+    font-size: 3vw;
+}
+
+.h3 {
+    font-size: 2.8vw;
+}
+
+.xd-txt {
+    font-size: 2.3vw;
+}
+
+.xd-section {
+    min-height: 100%;
+    padding: 0 5vw;
+}
+
+.h1.gold {
+    position: relative;
+}
+
+    .h1.gold span {
+        display: inline-block;
+        color: #c39680;
+        background: url(/images/about-us/gold-bg.jpg) no-repeat center;
+        background-size: 100% 100%;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+.sec1 {
+    background: #fffbf5 url(/images/about-us/s1-bg.jpg) no-repeat bottom center;
+    background-size: 100% auto;
+    padding-top: 75px;
+}
+
+.group-logo {
+    position: relative;
+    text-align: center;
+    border: 1px solid #000;
+    margin: 2vw auto;
+}
+
+    .group-logo .h3 {
+        background: #fffbf5;
+        padding: 0 1vw;
+        display: inline-block;
+        position: absolute;
+        top: -0.7vw;
+        left: 50%;
+        margin: 0 auto;
+        transform: translateX(-50%);
+        white-space: nowrap;
+    }
+
+.v-list span {
+    display: inline-block;
+    position: relative;
+    padding-left: 1.5em;
+    margin-right: 2em;
+}
+
+    .v-list span::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 1.5em;
+        height: 100%;
+        background: url(/images/about-us/v-icon.png) left center no-repeat;
+        background-size: contain;
+    }
+
+.group-1-pic {
+    width: 15%;
+}
+
+.group-2-pic {
+    width: 60%;
+}
+
+.group-3-pic {
+    width: 90%;
+}
+
+.sec2 {
+    background: #000 url(/images/about-us/s2-bg.jpg) no-repeat bottom center;
+    background-size: 100% auto
+}
+
+    .sec2 .info-box {
+        color: #fff;
+        width: 40%;
+        text-align: center;
+        position: relative;
+    }
+
+.sec3 {
+    background-color: #fff
+}
+
+    .sec3 .info-box {
+        text-align: center;
+    }
+
+    .sec3 .h2 {
+        font-weight: 600
+    }
+
+.sec4 {
+    background: #fff url(/images/about-us/s4-bg.jpg) no-repeat bottom center;
+    background-size: 100% auto
+}
+
+    .sec4 .info-box {
+        text-align: center;
+    }
+
+.factory-list {
+    padding: 2vw 4vw;
+}
+
+.fact {
+    position: relative;
+    padding-left: 4em;
+    text-align: left;
+}
+
+    .fact::after {
+        content: "";
+        position: absolute;
+        width: 3.5em;
+        height: 3.5em;
+        left: 0;
+        top: 0;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .fact:nth-child(1)::after {
+        background-image: url(/images/about-us/s4-icon-1.png)
+    }
+
+    .fact:nth-child(2)::after {
+        background-image: url(/images/about-us/s4-icon-2.png)
+    }
+
+    .fact:nth-child(3)::after {
+        background-image: url(/images/about-us/s4-icon-3.png)
+    }
+
+.sec5 {
+    background: #000 url(/images/about-us/s5-bg.jpg) no-repeat center;
+    background-size: 100% auto
+}
+
+    .sec5 .info-box {
+        text-align: center;
+        color: #fff;
+    }
+
+        .sec5 .info-box .h2 {
+            width: 54%
+        }
+
+        .sec5 .info-box .h1 {
+            font-weight: 800;
+        }
+
+@media (max-width:1023px) {
+    .xd-mb {
+        display: block
+    }
+
+    .xd-pc {
+        display: none
+    }
+
+    .h1 {
+        margin: 2vw auto
+    }
+
+    .s-logo {
+        font-size: 3.5vw;
+    }
+
+    .hot-icon img {
+        width: 56px;
+        vertical-align: text-bottom;
+    }
+
+    .main-nav li, .main-nav li a {
+        font-size: 3vw;
+    }
+
+    .main-nav li {
+        margin-right: 2vw;
+    }
+
+    .lang a:first-child {
+        margin-right: 1.5vw;
+    }
+    /**--------- START HERE ---------**/
+    .sec1 {
+        background-size: 160% auto;
+    }
+
+    .info-wrap {
+        text-align: center;
+    }
+
+    .box-2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .group-logo .h3 {
+        padding: 0 3vw;
+        top: -1.5vw
+    }
+
+    .group-logo {
+        padding: 4vw 0 2vw;
+    }
+
+        .group-logo.s1, .group-logo.s2 {
+            width: 45%;
+        }
+
+    .group-1-pic, .group-2-pic {
+        height: 8vw;
+        width: auto;
+    }
+
+    .group-logo.s3 {
+        width: 70%;
+    }
+
+    .group-3-pic {
+        width: 75%;
+    }
+
+    .sec2 {
+        background-size: 290% auto;
+        background-position: 10% 100%;
+        padding-top: 5vw;
+        height: 80vh;
+    }
+
+        .sec2 .info-box {
+            width: 100%;
+            margin: 0 auto;
+        }
+
+    .sec3 .info-box {
+        padding: 5vw 2vw;
+    }
+
+    .sec3 .pro-list {
+        padding: 2vw 0;
+    }
+
+    .sec4 {
+        background-size: 250% auto;
+        background-position: 70% 100%;
+        padding-top: 10vw;
+        height: 80vh;
+    }
+
+    .factory-list {
+        padding-top: 3vw;
+    }
+
+    .fact {
+        margin-bottom: 5vw;
+        padding-left: 5em
+    }
+
+    .sec5 {
+        background-position: 61% 0;
+        background-size: 250%;
+        height: 100vh;
+    }
+
+        .sec5 .info-box {
+            position: absolute;
+            width: 86%;
+            bottom: 15vw;
+            left: 7%;
+        }
+}
+
+@media (min-width:1024px) {
+    .xd-pc {
+        display: block
+    }
+
+    .xd-mb {
+        display: none
+    }
+
+    .h1 {
+        font-size: 2.38vw;
+        line-height: auto;
+        margin: 0.35vw 0 1vw;
+    }
+
+    .h2 {
+        font-size: 1.455vw;
+    }
+
+    .h3 {
+        font-size: 0.97vw;
+    }
+
+    .xd-btn {
+        font-size: 0.9vw;
+    }
+
+    .xd-txt {
+        font-size: 0.97vw;
+    }
+
+    .xd-section {
+        padding: 0 5vw;
+    }
+
+    .sec1 {
+        padding-top: 8vw;
+    }
+
+        .sec1 .info-wrap {
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+    .box-1 {
+        width: 70%;
+    }
+
+    .box-2 {
+        width: 25%;
+    }
+
+    .group-logo {
+        width: 100%;
+        padding: 1vw 1vw 0.5vw;
+        border-radius: 0.5vw;
+    }
+
+    .sec2 .info-box {
+        float: right;
+        padding-top: 15vw;
+        padding-bottom: 15vw;
+    }
+
+    .sec2 .h1 {
+        font-size: 3vw;
+    }
+
+    .sec3 .info-box .h2 {
+        padding-top: 2vw
+    }
+
+    .sec3 .pro-list {
+        padding: 1.5vw 0;
+    }
+
+        .sec3 .pro-list img {
+            width: 95%;
+            margin: 0 auto;
+        }
+
+    .sec4 {
+        padding-top: 5vw;
+    }
+
+    .factory-list {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 1vw 0;
+    }
+
+    .fact {
+        width: 31%;
+    }
+
+    .sec5 .info-box {
+        position: absolute;
+        bottom: 4vw;
+        max-width: 50%;
+        margin: 0 auto;
+        left: 0;
+        right: 0
+    }
+
+    /*Custom css*/
+    .sec4 {
+        height: 92vh;
+    }
+
+    .sec5 {
+        height: 100vh;
+    }
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .h1.gold span {
+        background: none;
+        color: #c39680
+    }
+}
+#primary_header .u-header__section {
+    background: #000;
+}

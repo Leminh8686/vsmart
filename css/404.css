@@ -1,0 +1,93 @@
+.navigation {width: 100%; background-color: #fff; position: relative; padding: 0 4.84vw; height: 50px;}
+.navigation > * {display: inline-block; vertical-align: middle; line-height: 50px;}
+    .s-logo {font-size: 19px; font-weight: 700; color:#000}
+    .main-nav {float: right;}
+    .main-nav li {list-style: none; display: inline-block; margin:0 2.2vw 0 0; padding: 0; line-height: 50px; cursor: pointer; font-weight: 300}
+    .hot-icon img {vertical-align: middle;}
+    .main-nav li, .main-nav li a {font-size: 14px; color:#000}
+    .main-nav li.lang {margin-right: 0;}
+    .lang a {font-weight: 700; color: #000; position: relative; line-height:1;}
+    .lang a::after {content: ""; position: absolute; width: 100%; height: 1px; bottom: 0; left:0;background-color: #000; opacity: 0; transition: opacity ease-in-out 0.3s;}
+    .lang a:hover::after,
+    .lang a.active::after {opacity: 1;}
+    .lang a:first-child {margin-right: 0.5vw;}
+    .nowrap {white-space: nowrap;}
+    .h1, .h2, .h3 {font-weight: 700;}
+    .h1 {font-size: 6vw;}
+    .h2 {font-size: 3.6vw; text-transform: uppercase;}
+    .h4 {font-size: 3.4vw;}
+
+.xd-404 {height:100%; vertical-align: middle; background: url(images/bg.jpg) center center no-repeat; background-size:cover}
+.icon-wrap {height:100%; width: 100%; display: flex; flex-wrap: wrap; justify-content: center;align-items: center; align-content:center}
+.icon-wrap > div {width: 100%; text-align: center;}
+.icon-wrap .h4 {padding-top: 4%; font-weight:500; line-height: 1.6;}
+.icon-bar {position: relative; width:100%; margin:3% auto}
+    .all-icons {width:100%;}
+    .search-icon {position: absolute; top:0; left:0; right:0; margin:0 auto;
+        animation-duration: 0.7s;
+        animation-iteration-count: infinite;
+    }
+.xd-btn {background:#000; color:#fff; border:1px solid #000; border-radius: 100px; transition: all ease-in-out 0.3s}
+.xd-btn:hover {background:#fff; color:#000}
+
+@media (max-width:1023px) {
+    .xd-mb {display: block}
+    .xd-pc {display: none}
+    .s-logo {font-size: 3.5vw;}
+    .hot-icon img {width: 56px; vertical-align: text-bottom;}
+    .main-nav li, .main-nav li a {font-size: 3vw;}
+    .main-nav li {margin-right: 2vw;}
+    .lang a:first-child {margin-right: 1.5vw;}
+/**--------- START HERE ---------**/
+.icon-bar {max-width:65%; margin:12% auto}
+.search-icon {width:52%; top:30%}
+.xd-btn {font-size: 4vw; padding: 1.8vw 10vw; width:66%; margin: 2vw auto;}
+.icon-wrap .h4 {padding-top:10vw;}
+}
+
+@media (min-width:1024px) {
+	.xd-pc {display: block}
+    .xd-mb {display: none}
+    .h4 {font-size: 2vw;}
+    .h2 {font-size: 2.22vw;}
+    .xd-btn {font-size: 1.5vw; padding: 0.75vw 6vw;}
+    .xd-txt {font-size:1vw;}
+    .search-icon {width:14.63vw;}
+}
+
+  @-webkit-keyframes move-s {
+    from {
+      -webkit-transform: translate(0,0);
+      transform: translate(0,0);
+    }  
+    to {
+      -webkit-transform: translate(0,-7%);
+      transform: translate(0,-7%);
+    }
+  }
+  @keyframes move-s {
+    from {
+      -webkit-transform: translate(0,0);
+      transform: translate(0,0);
+    } 
+    to {
+      -webkit-transform: translate(0,-7%);
+      transform: translate(0,-7%);
+    }
+  }
+  .animate__move-s {
+    -webkit-animation-name: move-s;
+    animation-name: move-s;
+    -webkit-animation-timing-function: ease;
+    animation-timing-function: ease;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+  }
+
+.u-header__section {
+    background-color: #000 !important;
+}
+.xd-404 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}

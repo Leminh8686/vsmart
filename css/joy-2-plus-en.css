@@ -1,0 +1,1180 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", arial;
+    color: #000;
+    font-weight: 400;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none
+}
+
+ol, ul {
+    list-style: none;
+}
+
+ul, h1, h2, h3, h4, h5 {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    outline: none
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+section {
+    clear: both;
+    font-size: 18px;
+    position: relative;
+    overflow: hidden;
+    width: 100%
+}
+
+.navigation {
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+    padding: 0 4.84vw;
+    height: 50px;
+    border-bottom: 1px solid #b2b2b2;
+}
+
+    .navigation > * {
+        display: inline-block;
+        vertical-align: middle;
+        line-height: 50px;
+    }
+
+.s-logo {
+    font-size: 19px;
+    font-weight: 700;
+    color: #000
+}
+
+.main-nav {
+    float: right;
+}
+
+    .main-nav li {
+        list-style: none;
+        display: inline-block;
+        margin: 0 2.2vw 0 0;
+        padding: 0;
+        line-height: 50px;
+        cursor: pointer;
+        font-weight: 300
+    }
+
+.hot-icon img {
+    vertical-align: middle;
+}
+
+.main-nav li, .main-nav li a {
+    font-size: 14px;
+    color: #000
+}
+
+    .main-nav li.lang {
+        margin-right: 0;
+    }
+
+.lang a {
+    font-weight: 700;
+    color: #000;
+    position: relative;
+    line-height: 1;
+}
+
+    .lang a::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 1px;
+        bottom: 0;
+        left: 0;
+        background-color: #000;
+        opacity: 0;
+        transition: opacity ease-in-out 0.3s;
+    }
+
+    .lang a:hover::after,
+    .lang a.active::after {
+        opacity: 1;
+    }
+
+    .lang a:first-child {
+        margin-right: 0.5vw;
+    }
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.mg-center {
+    margin: 0 auto;
+    position: relative;
+}
+
+.h1, .h2 {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.h1 {
+    font-size: 8vw;
+    line-height: 1;
+}
+
+.h2 {
+    font-size: 4.8vw;
+}
+
+.xd-txt {
+    font-size: 2.5vw;
+    text-align: left;
+    padding: 2.5vw 0;
+    line-height: 1.5;
+}
+
+.info {
+    max-width: 70%;
+}
+
+.mg-center img {
+    width: 100%;
+}
+
+/** KV **/
+.sec1 {
+    margin-top: 110px;
+    padding: 12vw 0 18vw;
+}
+
+.video-btn {
+    width: 100%;
+    margin-top: 2vw;
+}
+
+.vd-btn {
+    font-weight: 700;
+    background: url(/images/joy-2-plus/icon-play.png) no-repeat center right;
+    background-size: contain;
+    padding: 0.15em 2em 0.15em 0;
+    font-size: 3vw;
+}
+
+.s1-phone {
+    width: 28%;
+    position: relative;
+    z-index: 5;
+    margin-top: 12vw;
+    transform: translateX(25%);
+}
+
+    .s1-phone .abs {
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+        transform-origin: center;
+    }
+
+    .s1-phone .s1-human {
+        max-width: 175%;
+        width: 175%;
+        bottom: 7.5%;
+        left: 14%;
+        z-index: 1;
+    }
+
+    .s1-phone .s1-p2 {
+        left: -38%;
+        bottom: -3%;
+        transform: rotate(-19deg);
+        z-index: -1;
+    }
+
+    .s1-phone .s1-p3 {
+        left: -60%;
+        bottom: -9.5%;
+        transform: rotate(-34deg);
+        z-index: -2;
+    }
+
+    .s1-phone .s1-p4 {
+        left: -80%;
+        bottom: -19.5%;
+        transform: rotate(-50deg);
+        z-index: -3;
+    }
+/** SEC 2 **/
+.sec2 {
+    background-color: #f8f8f8;
+    padding: 10vw 0;
+}
+
+.s2-phone {
+    width: 85%;
+    margin-top: 5vw;
+}
+
+/** SEC 3 **/
+.sec3 {
+    background: #000 url(/images/joy-2-plus/s3-bg.jpg) no-repeat bottom left;
+    background-size: 200%;
+    color: #fff;
+    padding-top: 10vw;
+}
+
+.s3-icons {
+    max-width: 80%;
+    margin: 2vw auto 4vw;
+}
+
+.s3-phone {
+    width: 70%;
+}
+
+    .s3-phone img {
+        display: block;
+        opacity: 0;
+    }
+
+.s3-canvas {
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+/** SEC 4 **/
+.sec4 {
+    padding: 10vw 0 0;
+}
+
+.s4-phone-box {
+    background: url(/images/joy-2-plus/s4-bg.jpg) no-repeat bottom center;
+    background-size: cover;
+    padding: 15vw 0 10vw;
+    margin-top: 5vw;
+}
+
+.s4-phone {
+    width: 45%;
+    z-index: 2;
+}
+
+    .s4-phone .abs {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+
+.s4-control {
+    width: 40%;
+}
+
+.s4-control-text {
+    width: 60%;
+}
+
+.s4-control .timeline {
+    width: 100%;
+    height: 2px;
+    background-color: rgba(255,255,255,0.65);
+    margin: 4vw auto;
+    position: relative;
+}
+
+.s4-control .slide-btn {
+    position: absolute;
+    top: -2vw;
+    right: 0;
+    width: 4vw;
+    height: 4vw;
+    border-radius: 100%;
+    border: 2px solid #fff;
+    background-color: #c9c9c8;
+}
+
+.s4-control-text {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+    .s4-control-text > div {
+        font-weight: 700;
+        font-size: 3vw;
+        opacity: 0.35;
+    }
+
+        .s4-control-text > div.active {
+            opacity: 1;
+        }
+
+/** SEC 5 **/
+.sec5 {
+    padding: 10vw 0 0;
+}
+
+.s5-info {
+    max-width: 85%;
+}
+
+.s5-phone {
+    width: 100%;
+    margin-top: 5vw;
+}
+
+.s5-phone-overlay {
+    opacity: 0;
+}
+
+.s5-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.s5-control {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    position: absolute;
+    color: #fff;
+    text-transform: uppercase;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    font-weight: 700;
+    width: 63%;
+    font-size: 2vw;
+    bottom: 2.2vw;
+}
+
+
+/** SEC 6 **/
+.sec6 {
+    padding: 10vw 0;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.s6-info {
+    width: 60%;
+    padding: 0 6vw;
+}
+
+.s6-phone {
+    width: 35%;
+    position: relative;
+}
+
+    .s6-phone img {
+        width: 100%;
+    }
+
+.s6-icons {
+    padding-top: 3vw;
+}
+
+    .s6-icons img {
+        width: 100%
+    }
+
+.s6-phone-overlay {
+    opacity: 0;
+}
+
+.s6-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+/** SEC 7 **/
+.sec7 {
+    padding: 10vw 0;
+    background-color: #f8f8f8;
+}
+
+.s7-phone {
+    width: 92%;
+    margin-top: 5vw;
+}
+
+/** SEC 8 **/
+.sec8 {
+    padding: 10vw 0;
+    background: #000 url(/images/joy-2-plus/s8-bg-mb.jpg) no-repeat top center;
+    background-size: 100% auto;
+    color: #fff
+}
+
+.s8-phone {
+    width: 86%;
+    margin-bottom: 8vw;
+}
+
+.s8-phone-overlay {
+    opacity: 0
+}
+
+.s8-canvas {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0
+}
+
+/** SEC 9 **/
+.sec9 {
+    padding: 0 0 2vw;
+    background: #000;
+    color: #fff
+}
+
+.s9-phone {
+    width: 100%;
+    z-index: 3;
+}
+
+    .s9-phone .abs {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: -1;
+    }
+
+    .s9-phone .s9-p3 {
+        z-index: -2;
+    }
+
+/** SEC 10 **/
+.sec10 {
+    padding: 0;
+    background: #000;
+    color: #fff
+}
+
+.s10-bg-pic {
+    display: block;
+}
+
+/** SEC 11 **/
+.sec11 {
+    padding: 10vw 0
+}
+
+.vos-phone {
+    width: 85%;
+    margin-top: 4vw;
+    position: relative;
+    z-index: 3;
+}
+
+    .vos-phone .abs {
+        position: absolute;
+    }
+
+    .vos-phone .vos-right-1 {
+        width: 20%;
+        top: 3%;
+        right: 15.5%;
+        z-index: -1;
+    }
+
+    .vos-phone .vos-right-2 {
+        width: 17%;
+        top: 3.5%;
+        right: 0;
+        z-index: -2;
+    }
+
+    .vos-phone .vos-left-1 {
+        width: 23.3%;
+        top: 11%;
+        left: 20%;
+        z-index: -1;
+    }
+
+    .vos-phone .vos-left-2 {
+        width: 22.3%;
+        top: 19%;
+        left: 0;
+        z-index: -2;
+    }
+
+/** SPEC **/
+#thong-so {
+    background: #f8f8f8;
+    padding: 0 10% 20px;
+    color: #16181a
+}
+
+.ts-header {
+    border-bottom: 1px solid #000;
+    padding: 4vw 0 2vw;
+    margin-bottom: 3vw;
+}
+
+.ts-phone, .ts-headline {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.ts-phone {
+    width: 5%;
+}
+
+.ts-headline {
+    width: 88.5%;
+    padding-left: 2vw;
+}
+
+.xd-btn {
+    border-radius: 100px;
+    border: 1px solid #000;
+    color: #000;
+    transition: all ease-in-out 0.3s;
+    font-size: 1vw;
+    font-weight: 700;
+    padding: 0.6em 2em;
+    cursor: pointer;
+}
+
+    .xd-btn:hover {
+        color: #fff;
+        background: #000;
+    }
+
+.ts-info-col {
+    margin: 1vw 0;
+}
+
+.ts-info-box {
+    padding-left: 5vw;
+}
+
+.ts-info .h2 {
+    font-size: 3vw;
+    color: #000;
+    position: relative;
+}
+
+    .ts-info .h2::before {
+        content: "";
+        position: absolute;
+        width: 3.5vw;
+        height: 3.5vw;
+        left: -5vw;
+        top: 0;
+    }
+
+.ts-header-info .h2 {
+    padding-left: 1.75em;
+    font-size: 4vw;
+    position: relative;
+}
+
+    .ts-header-info .h2::before {
+        content: "";
+        position: absolute;
+        width: 1.35em;
+        height: 1.35em;
+        left: 0;
+        top: -0.25em;
+    }
+
+.ts-info .xd-txt {
+    font-size: 2.5vw;
+    padding: 0.35vw 0;
+}
+
+.ts-info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.xd-btn {
+    font-size: 2.2vw;
+}
+
+.ts-info .h2::before,
+.ts-header-info .h2::before {
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.ts-header-info .h2.vicon-1::before {
+    background-image: url(/images/joy-2-plus/vicon-1.png)
+}
+
+.ts-header-info .h2.vicon-2::before {
+    background-image: url(/images/joy-2-plus/vicon-2.png)
+}
+
+.ts-header-info .h2.vicon-3::before {
+    background-image: url(/images/joy-2-plus/vicon-3.png)
+}
+
+.ts-info .h2.ticon-1::before {
+    background-image: url(/images/joy-2-plus/sicon-1.png)
+}
+
+.ts-info .h2.ticon-2::before {
+    background-image: url(/images/joy-2-plus/sicon-2.png)
+}
+
+.ts-info .h2.ticon-3::before {
+    background-image: url(/images/joy-2-plus/sicon-3.png)
+}
+
+.ts-info .h2.ticon-4::before {
+    background-image: url(/images/joy-2-plus/sicon-4.png)
+}
+
+.ts-info .h2.ticon-5::before {
+    background-image: url(/images/joy-2-plus/sicon-5.png)
+}
+
+.ts-info .h2.ticon-6::before {
+    background-image: url(/images/joy-2-plus/sicon-6.png)
+}
+
+.ts-info .h2.ticon-7::before {
+    background-image: url(/images/joy-2-plus/sicon-7.png)
+}
+
+.ts-info .h2.ticon-8::before {
+    background-image: url(/images/joy-2-plus/sicon-8.png)
+}
+
+.ts-info .h2.ticon-9::before {
+    background-image: url(/images/joy-2-plus/sicon-9.png)
+}
+
+.ts-info .h2.ticon-10::before {
+    background-image: url(/images/joy-2-plus/sicon-10.png)
+}
+
+.ts-info .h2.ticon-11::before {
+    background-image: url(/images/joy-2-plus/sicon-11.png)
+}
+
+.ts-info .h2.ticon-12::before {
+    background-image: url(/images/joy-2-plus/sicon-12.png)
+}
+
+.ts-info .h2.ticon-13::before {
+    background-image: url(/images/joy-2-plus/sicon-13.png)
+}
+
+.ts-info .h2.ticon-14::before {
+    background-image: url(/images/joy-2-plus/sicon-14.png)
+}
+
+/** POPUP **/
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+    .embed-container iframe, .embed-container object, .embed-container embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+.popup {
+    display: none;
+    width: 100%;
+    height: 100%;
+    z-index: 90;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+}
+
+    .popup.active {
+        display: block;
+    }
+
+.popup-wrap {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 60%;
+    z-index: 99;
+}
+
+.popup-outer {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 91;
+    top: 0
+}
+
+.cover-phone {
+    position: absolute;
+    top: -4.5%;
+    left: -12%;
+    display: block;
+    margin: 0 auto;
+    max-width: 124%;
+    width: 124%;
+    z-index: -1;
+}
+
+.popup-close {
+    position: absolute;
+    top: 120px;
+    right: 2vw;
+    z-index: 99;
+}
+
+    .popup-close span {
+        display: inline-block;
+        line-height: 1;
+        font-size: 5vw;
+        font-weight: 300;
+        transform: rotate(45deg);
+        cursor: pointer;
+        color: #fff
+    }
+
+@media (max-width:1023px) {
+    .xd-mb {
+        display: block
+    }
+
+    .xd-pc {
+        display: none;
+    }
+
+    .s-logo {
+        font-size: 3.5vw;
+    }
+
+    .hot-icon img {
+        width: 56px;
+        vertical-align: text-bottom;
+    }
+
+    .main-nav li, .main-nav li a {
+        font-size: 3vw;
+    }
+
+    .main-nav li {
+        margin-right: 2vw;
+    }
+
+    .lang a:first-child {
+        margin-right: 1.5vw;
+    }
+    /**--------- START HERE ---------**/
+    .s3-info .h2 {
+        margin-right: -15%;
+    }
+
+    .s5-info .h2 {
+        margin-right: -15%;
+    }
+
+    .popup-wrap {
+        width: 90%;
+    }
+
+    .popup-close span {
+        font-size: 12vw;
+    }
+}
+
+@media (min-width:1024px) {
+    .xd-mb {
+        display: none
+    }
+
+    .xd-pc {
+        display: block
+    }
+
+    .h1, .h2 {
+        font-size: 2.533vw;
+    }
+
+    .h2 {
+        padding: 0.5em 0;
+    }
+
+    .xd-txt {
+        font-size: 1.0125vw;
+        padding: 0.75vw 0;
+    }
+
+    .vd-btn {
+        font-size: 1.25vw;
+    }
+
+    .video-btn:hover {
+        opacity: 0.75
+    }
+
+    .info {
+        max-width: 60%;
+    }
+
+    .sec1, .sec3, .sec4, .sec7, .sec8, .sec9 {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-around
+    }
+
+        .sec1 .h1 br, .sec2 .h2 br, .sec10 .h2 br, .sec11 .h2 br {
+            display: none;
+        }
+
+        .sec1 .xd-txt, .sec2 .xd-txt, .sec5 .xd-txt, .sec10 .xd-txt {
+            text-align: center;
+        }
+
+        .sec1 .mg-center {
+            margin: 0;
+        }
+
+    .sec1 {
+        padding: 6vw 0 8vw
+    }
+
+    .s1-phone {
+        order: 1;
+        width: 14.791%;
+        margin-top: 2vw;
+        transform: translateX(110%);
+    }
+
+    .kv-info {
+        order: 2;
+        max-width: 50%;
+        text-align: center;
+        padding-left: 5%;
+    }
+
+    .s1-phone .s1-human {
+        bottom: 6.8%;
+    }
+
+    .sec2 {
+        padding: 6vw 0;
+        text-align: center;
+    }
+
+    .s2-phone {
+        width: 71.3%;
+        margin-top: 2vw;
+    }
+
+    .sec3 {
+        background-size: 100% auto;
+        align-items: flex-start;
+    }
+
+        .sec3 .mg-center {
+            margin: 0;
+        }
+
+    .s3-phone {
+        width: 40.416%;
+    }
+
+    .s3-info {
+        width: 40%;
+    }
+
+    .s3-icons {
+        width: 70.285%;
+        padding-top: 2vw;
+    }
+
+    .sec4 {
+        padding: 0;
+    }
+
+    .s4-phone-box {
+        order: 1;
+        margin: 0;
+        padding: 5vw 0;
+        width: 50%;
+    }
+
+    .s4-info {
+        order: 2;
+        margin: 0;
+        width: 50%;
+        padding: 0 5%;
+    }
+
+    .s4-control-text > div {
+        font-size: 0.97vw
+    }
+
+    .s4-control .slide-btn {
+        width: 1.5vw;
+        height: 1.5vw;
+        top: -0.74vw
+    }
+
+    .s4-control .timeline {
+        margin: 3vw auto 2vw;
+    }
+
+    .s4-phone {
+        width: 35%;
+    }
+
+    .s4-control {
+        width: 33%;
+    }
+
+    .s4-control-text {
+        width: 42%;
+    }
+
+    .sec5 {
+        padding: 7vw 0 0;
+        background: #f8f8f8;
+        text-align: center;
+    }
+
+    .s5-phone {
+        margin-top: 2vw;
+    }
+
+    .s5-control {
+        font-size: 0.9vw;
+        bottom: 1.2vw;
+        width: 36.5%;
+    }
+
+    .sec6 {
+        padding: 5vw 0;
+    }
+
+    .s6-info {
+        width: 55%;
+    }
+
+    .s6-icons {
+        width: 100%;
+    }
+
+    .s6-phone {
+        width: 26.562%;
+    }
+
+    .sec7 {
+        padding: 5vw 0;
+    }
+
+    .s7-info {
+        width: 40%;
+        padding: 0 3% 0 5%;
+    }
+
+    .s7-phone {
+        width: 56.4%;
+        padding-right: 3%;
+    }
+
+    .sec8 {
+        padding: 10vw 0;
+        background: #000 url(/images/joy-2-plus/s8-bg.jpg) no-repeat top center;
+        background-size: 100% auto;
+        justify-content: center;
+    }
+
+        .sec8 .mg-center {
+            margin: 0
+        }
+
+    .s8-phone {
+        width: 45.203%
+    }
+
+    .s8-info {
+        width: 40%;
+    }
+
+    .sec9 {
+        justify-content: center;
+    }
+
+        .sec9 .mg-center {
+            margin: 0
+        }
+
+    .s9-phone {
+        order: 2;
+        width: 50%
+    }
+
+    .s9-info {
+        order: 1;
+        width: 40%;
+        padding-left: 5%;
+    }
+
+        .s9-info .h2 {
+            white-space: nowrap;
+        }
+
+        .s9-info .xd-txt {
+            padding-right: 5%;
+        }
+
+    .sec10 {
+        text-align: center;
+    }
+
+    .s10-info {
+        max-width: 90%;
+    }
+
+    .s10-phone {
+        width: 77%;
+    }
+
+    .sec11 {
+        padding: 5vw 0;
+        text-align: center;
+    }
+
+    .s11-info .h2 {
+        white-space: nowrap;
+    }
+
+    .s11-info .xd-txt {
+        text-align: center;
+        padding: 0 3%;
+    }
+
+    .vos-phone {
+        width: 50%;
+    }
+
+    #thong-so {
+        padding: 0 3%;
+    }
+
+    .ts-header {
+        margin-bottom: 1vw;
+        padding: 2em 0 1em;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+
+    .ts-header-info {
+        width: 30%;
+    }
+
+        .ts-header-info .h2 {
+            font-size: 1.5vw;
+            padding-left: 2.2em;
+        }
+
+            .ts-header-info .h2::before {
+                top: 0.1em;
+                width: 2em;
+                height: 2em;
+            }
+
+    .ts-phone {
+        width: 2%;
+    }
+
+    .ts-headline {
+        width: 94%;
+        padding-left: 1em;
+    }
+
+    .ts-info .xd-txt, .ts-info .h2 {
+        font-size: 1vw;
+    }
+
+        .ts-info .h2::before {
+            width: 1.5vw;
+            height: 1.5vw;
+            left: -2vw;
+            top: 0.35vw;
+        }
+
+    .ts-info-box {
+        padding-left: 2vw;
+    }
+
+    .ts-info-col {
+        width: 26%;
+        margin: 0.5vw 0;
+        padding-right: 2%;
+    }
+
+    .ts-info .xd-txt {
+        font-size: 1vw;
+        padding: 0.15vw 0;
+    }
+
+    .break-col {
+        flex-basis: 100%;
+        width: 0;
+    }
+
+    .break-col-mb {
+        display: none;
+    }
+
+    .ts-info {
+        height: 37vw;
+    }
+}
+
+@media (min-width:1366px) {
+    .ts-info {
+        height: 38vw;
+    }
+}
+.u-header__section {
+    background-color: #000 !important;
+}

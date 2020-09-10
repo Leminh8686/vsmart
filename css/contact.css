@@ -1,0 +1,233 @@
+﻿.g-bg-black{
+    background: #000;
+}
+@media (min-width: 992px) {
+    .g-px-30--lg {
+        padding-left: 2.14286rem !important;
+        padding-right: 2.14286rem !important;
+    }
+}
+
+@media (min-width: 0) {
+    .g-px-15 {
+        padding-left: 1.07143rem !important;
+        padding-right: 1.07143rem !important;
+    }
+}
+
+@media (min-width: 0) {
+    .g-px-15 {
+        padding-left: 1.07143rem !important;
+        padding-right: 1.07143rem !important;
+    }
+}
+
+@media (min-width: 0) {
+    .g-pb-100 {
+        padding-bottom: 7.14286rem !important;
+    }
+}
+
+@media (min-width: 0) {
+    .g-pt-50 {
+        padding-top: 3.57143rem !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .g-px-30--lg {
+        padding-left: 2.14286rem !important;
+        padding-right: 2.14286rem !important;
+    }
+}
+
+@media (min-width: 0) {
+    .g-px-15 {
+        padding-left: 1.07143rem !important;
+        padding-right: 1.07143rem !important;
+    }
+}
+
+@media (min-width: 0) {
+    .g-px-15 {
+        padding-left: 1.07143rem !important;
+        padding-right: 1.07143rem !important;
+    }
+}
+@media (min-width: 0) {
+    .g-py-10 {
+        padding-top: 0.71429rem !important;
+        padding-bottom: 0.71429rem !important;
+    }
+}
+
+@media (min-width: 0) {
+    .g-py-10 {
+        padding-top: 0.71429rem !important;
+        padding-bottom: 0.71429rem !important;
+    }
+}
+
+.btn-send {
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    text-transform: uppercase;
+    border-radius: 20px;
+    padding: 12px 70px;
+    background: linear-gradient(to right, #895f49 0%,#fbf4ee 53%, #b78d77 78%);
+}
+
+.contact-input {
+    outline: none;
+    color: #cfaf9c;
+    background-color: rgba(0, 0, 0, 0);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    width: 100%;
+}
+
+.contact-input::placeholder {
+    color: #cfaf9c;
+    text-transform: uppercase;
+}
+
+.contact-input:focus::placeholder {
+    color: transparent;
+}
+
+.contact-input-brd {
+    border: 1px solid #cfaf9c;
+}
+
+.contact-input-brd-bottom {
+    border-bottom: 1px solid #cfaf9c;
+}
+
+.contact-textarea-brd {
+    border: 1px solid #cfaf9c;
+    padding: 5px 10px;
+}
+
+.contact-input-label {
+    color: #cfaf9c;
+    text-transform: uppercase;
+}
+
+.welcome1 {
+    text-align: center;
+    color: white;
+    font-size: 26px;
+    margin-bottom: 80px;
+    font-family: Montserrat;
+    font-weight: 900;
+    background: linear-gradient(to bottom,#fff 0,#f6ce99 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.welcome {
+    color: #fff;
+    font-family: Montserrat;
+    font-weight: 900;
+    background: linear-gradient(to bottom,#fff 0,#f6ce99 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+@media screen and (max-width:1600px) {
+    .welcome {
+        margin-top:-170px
+    }
+}
+
+@media screen and (min-width:1601px) {
+    .welcome {
+        margin-top:-150px
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .welcome {
+        margin-top:-250px
+    }
+}
+
+@media screen and (max-width:1199px) {
+    .welcome {
+        margin-top:-250px
+    }
+}
+
+@media screen and (min-width:800px) {
+    .welcome {
+        font-size:26px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%)
+    }
+}
+
+@media screen and (max-width:1023px) {
+    .welcome {
+        margin-top:-130px
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .welcome {
+        margin-top:-170px
+    }
+}
+
+@media screen and (min-width:800px) {
+    .welcome {
+        margin-top:-200px
+    }
+}
+
+@media screen and (max-width:991px) {
+    .welcome {
+        margin-top:-200px
+    }
+}
+
+@media screen and (min-width:992px) {
+    .welcome {
+        margin-top:-130px
+    }
+}
+
+@media screen and (max-width:799px) {
+    .welcome {
+        margin-top:-50px;
+        margin-bottom: 30px
+    }
+}
+
+.list-contact {
+    list-style-type:none
+}
+
+    .list-contact li {
+        color: #cfaf9c;
+        line-height: 24px;
+        font-family: Montserrat;
+        font-weight: 400
+    }
+
+        .list-contact li::before {
+            content: "\2022";
+            color: #cfaf9c;
+            font-weight: 700;
+            display: inline-block;
+            width: 1em
+        }
+
+
+.btn-send {
+    cursor: pointer;
+}

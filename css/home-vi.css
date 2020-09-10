@@ -1,0 +1,170 @@
+/** TAB GROUP **/
+.tab-nav {display: flex; justify-content: center; text-align: center; align-items: flex-end; padding:4vw 0;}
+    .tab-nav-item {padding:0 5vw; white-space: nowrap; cursor: pointer; font-weight: 700; font-size: 2.5vw;}
+    .tab-nav-item img {width:8vw;}
+
+.tab-list {position: relative; overflow: hidden}
+    .tab-list > div {text-align: center; position: absolute; width: 100%; top:7%}
+    .tab-list > div span {line-height: 1.35;}
+    .tab-list > div > span {font-size:3.3vw}
+    .tab-list > div > span:first-child {font-weight: 700; font-size:4.5vw}
+    .tab-list .xd-btn {margin-top:2vw;}
+    .tab-list > img {width:100%;}
+    .iot-list {position: relative; width: 100%;}
+    .iot-pic {width:100%;}
+    .iot-list .iot-btn {position:absolute; width: 100%; text-align: center;}
+        .iot-btn .xd-btn {border:none; background: transparent url(/images/cta-iot.png) no-repeat center; background-size: 100% auto; color:#fff; font-size: 3.5vw; padding: 0.6em 3em; font-weight: 600;}
+        .iot-1 .iot-btn {top:8%}
+        .iot-2 .iot-btn {bottom:8%}
+    a.float-click {width:100%; height: 100%; position:absolute; z-index:5; top:0; left:0}
+.tab-nav-item {opacity:0.35}
+.tab-nav-item.active {opacity:1}
+.tab-box {display:none}
+.tab-box.active {display:block}
+
+/** BLOG POST **/
+#blog-post {padding:6% 0;}
+    #blog-post .h2 {text-align: center; padding:4vw 0;}
+.post-item {background-color:#f2f2f2;}
+.post-image img {display: block; width:100%}
+
+/** WHY VSMART **/
+#why-vsmart {background-color: #efefef;}
+.why-box {padding: 10vw;}
+    .why-box .h1 {font-size: 5vw;}
+    .bnf-txt {font-size: 2.5vw;}
+.bnf-info .h3 {text-transform: uppercase; font-size: 3.2vw; line-height:1.5;}
+.bnf-info {padding-left: 14vw; position: relative; margin: 6vw auto;}
+.bnf-info::before {content:""; position: absolute; top:0; left:0; background-repeat: no-repeat; background-size: contain; width: 12vw; height: 12vw;}
+    .wicon-1::before {background-image: url(/images/bnf-icon-1.png)}
+    .wicon-2::before {background-image: url(/images/bnf-icon-2.png)}
+    .wicon-3::before {background-image: url(/images/bnf-icon-3.png)}
+    .wicon-4::before {background-image: url(/images/bnf-icon-4.png)}
+.why-cta .xd-btn {font-size: 3vw; padding:0.5em 3em;}
+.why-pic .bnf-pic {display: none; width: 100%;}
+
+#footnote {background:#000; color:#fff; padding: 4vw 7vw;}
+#footnote a, .fn-txt a, .fn-txt span {color:#fff; font-size: 2.5vw; padding:1vw 0;}
+    .fn-list .h2 {font-size:4vw; text-transform: none; padding-bottom:2vw;}
+    .fn-txt a, .fn-txt span {display: block}
+.fn-icons a {vertical-align: middle; display: inline-block; margin-right:1em;}
+
+@media (max-width:1023px) {
+    .xd-mb {display: block}
+    .xd-pc {display: none}
+    .s-logo {font-size: 3.5vw;}
+    .hot-icon img {width: 56px; vertical-align: text-bottom;}
+    .main-nav li, .main-nav li a {font-size: 3vw;}
+    .main-nav li {margin-right: 2vw;}
+    .lang a:first-child {margin-right: 1.5vw;}
+
+.xd-btn {padding:0.5em 2em; font-size: 2.3vw;}
+/**--------- START HERE ---------**/
+.slide-item .h2 {font-size:3.45vw}
+.slide2-info .h2 {font-size: 3vw;}
+.blog-wrap {padding:0 4vw;}
+.post-item {margin-bottom:4vw;}
+    .post-short {font-size:3.5vw; font-weight:600; padding: 4vw;}
+        .post-image img.xd-pc {display: none;}
+.why-box {position: relative; z-index: 2}
+.why-cta {text-align: center;}
+.why-pic {position: relative; z-index:1; margin-top: -25vw;}
+.why-pic .bnf-pic.xd-pc {display: none;}
+.why-pic .active.xd-mb {display: block;}
+
+.fn-group {display: flex; justify-content: space-between; align-items: flex-start; margin:3vw 0;}
+.fn-group .fn-list {width: 48%;}
+.fn-group .fn-list.fw {width: 96%;}
+.fn-icons a img {max-height:7vw; margin-top:7vw;}
+#footnote {padding-bottom:0;}
+.fn-group.inline {width:49%; display: inline-block; vertical-align: top;}
+.fn-group.inline .fn-list {width:100%; display:block; margin-bottom: 3vw;}
+}
+
+@media (min-width:1024px) {
+	.xd-pc {display: block}
+    .xd-mb {display: none}
+    .h1 {font-size: 1.55vw;}
+    .h2 {font-size: 1.5vw;}
+    .xd-btn {font-size: 0.9vw;}
+    .xd-txt {font-size:0.87vw;}
+    .kv-btn .xd-btn {font-size: 1.2vw;}
+
+.slide1-info, .slide2-info {width:50%;}
+.slide1-info {top:36%; left:5%}
+.slide2-info {top:36%; left:25%}
+
+.slide-1 .logo-text, .slide-2 .logo-text{font-size: 4.8vw;}
+.kv-btn {margin-top: 3vw;}
+
+/** TAB GROUP **/
+.tab-nav {padding:2vw 0;}
+.tab-nav-item {font-size:1.1vw; width: 20vw; padding:0 1vw;}
+.tab-nav-item img {width:4.114vw;}
+.tab-info {padding:1vw; display: flex; flex-wrap: wrap; justify-content: space-between;}
+    .tab-list.hlight {width:100%;}
+    .tab-list {margin-bottom: 1vw; width:calc(50% - 0.5vw);}
+    .tab-list > div {width: 40%; top:30%; right:0}
+        .tab-list.hlight > div {width: 60%;}
+    .tab-list > div span {line-height: 1.35;}
+    .tab-list > div > span {font-size:1.44vw}
+    .tab-list > div > span:first-child {font-size:2.27vw}
+    .tab-list.hlight > div > span {font-size:1.64vw}
+    .tab-list.hlight > div > span:first-child {font-size:3.36vw}
+
+    .tv-list > div {width: 45%; top:30%; right:0}
+        .tv-list.hlight > div {width: 66%;}
+    .tv-list > div > span {font-size:1.4vw}
+    .tv-list > div > span:first-child {font-size:1.7vw}
+    .tv-list.hlight > div > span {font-size:1.64vw}
+    .tv-list.hlight > div > span:first-child {font-size:2.6vw}
+    .tab-list .xd-btn {margin-top:1.5vw;}
+    .iot-btn .xd-btn {font-size:1.7vw; padding: 0.65em 3.2em}
+    .iot-btn .xd-btn:hover {
+        -webkit-box-shadow: 0 0 1em 0 rgba(255,255,255,1);
+        box-shadow: 0 0 1em 0 rgba(255,255,255,1);
+    }
+    .iot-1 .iot-btn {top:17%}
+        .iot-2 .iot-btn {width:30%; bottom:40%; right:0}
+.tab-nav-item {transition: opacity ease-in-out 0.3s;}
+.tab-nav-item:hover {opacity:0.75}
+/** BLOG **/
+#blog-post {padding:2vw 0;}
+#blog-post .h2 {padding:2vw 0;}
+.post-image img.xd-mb {display: none;}
+.blog-wrap {display: flex; flex-wrap: wrap;justify-content:space-between; width:88%; margin: 0 auto}
+    .post-item.col-2 {width:calc(100%/2 - 0.5vw)}
+    .post-item.col-3 {width:calc(100%/3 - 0.75vw)}
+    .post-item.col-1 {width:100%; display: flex; flex-wrap:nowrap; align-items: center;}
+        .post-item.col-1 .post-image {width:calc((100%/3)*2 - 0.25vw)}
+        .post-item.col-1 .post-short {width:calc(100%/3 - 0.75vw)}
+    .post-item {margin-bottom:1vw;}
+    .post-short {font-size:1.5vw; padding:1.5vw;}
+/** WHY **/
+.why-box {position:absolute; bottom:2.5vw; left:0; padding:0 0 0 5vw; width: 53%;}
+    .why-box .h1 {font-size: 1.55vw;}
+    .bnf-txt {font-size: 0.7vw; text-align: justify;}
+.bnf-group {display:inline-block; width:49%; vertical-align: top; padding-right:5%}
+.bnf-info .h3 {font-size: 0.8vw; margin-bottom: 0.25vw; white-space: nowrap;}
+.bnf-info {padding-left: 3vw; position: relative; margin:1.3vw auto;}
+.bnf-info::before {width: 2.5vw; height: 2.5vw;}
+.why-cta .xd-btn {font-size: 0.9vw}
+
+.why-pic .bnf-pic.xd-mb {display: none;}
+.why-pic .active.xd-pc {display: block;}
+
+#footnote {padding: 3vw 0 2vw 5vw;}
+.fn-group.sm {max-width:22%;}
+.fn-group, .fn-list {display: inline-block; vertical-align: top;}
+.fn-list {padding-right: 4.5vw;}
+#footnote a, .fn-txt a, .fn-txt span {font-size: 0.8vw; padding:0.3vw 0;}
+    .fn-list .h2 {font-size:1.2vw; padding-bottom: 0.5vw;}
+
+.slick-dots {bottom: 3vw;}
+.slick-dots li {width:0.8vw; height:0.8vw;}
+.slick-arrow {width: 2vw; height: 2vw; border:2px solid #fff}
+.hd-next {border-left-width: 0; border-bottom-width:0; right:2vw}
+.hd-prev {border-right-width: 0; border-top-width:0; left:2vw}
+
+.fn-icons a img {max-height:2vw; margin-top:4vw;}
+}

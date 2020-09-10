@@ -1,0 +1,115 @@
+.u-header__section {
+    background-color: #000 !important;
+}
+.fs-navigation {
+    position: relative;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 4.84vw;
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #d9d9d9;
+    text-align: right;
+    background-color: #fff
+}
+
+.fs-navigation li {
+    position: relative;
+    display: inline-block;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+    vertical-align: middle;
+    margin-right: 2.2vw;
+    cursor: pointer;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out
+}
+
+.fs-navigation li a {
+    display: block
+}
+
+.fs-navigation li a.fs-sort-by-tv:not(.active) {
+    display: none
+}
+
+.fs-navigation .fs-nav-hot a {
+    line-height: 0
+}
+
+.fs-navigation ul {
+    display: block;
+    line-height: 50px;
+    font-size: 0
+}
+
+.fs-navigation li:last-child {
+    margin: 0
+}
+
+.fs-navigation li:nth-child(1) {
+    position: absolute;
+    left: 4.84%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    cursor: default;
+    -webkit-transition: none;
+    transition: none;
+    opacity: 1!important
+}
+
+.fs-navigation li:nth-child(1),
+.fs-navigation li:nth-child(1) li a {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 19px
+}
+
+.fs-navigation li:hover {
+    opacity: .5
+}
+
+.fs-language {
+    position: relative;
+    display: block
+}
+
+.fs-btn-language {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: .5vw
+}
+
+.fs-btn-language:last-child {
+    margin: 0
+}
+
+.fs-btn-language a {
+    line-height: initial;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center
+}
+
+.fs-language .fs-btn-language::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+    opacity: 0;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out
+}
+
+.fs-language .fs-btn-language.current::before,
+.fs-language .fs-btn-language:not(.current):hover::before,
+.fs-navigation li:last-child:hover {
+    opacity: 1
+}
