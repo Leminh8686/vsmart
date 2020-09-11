@@ -812,7 +812,7 @@ section {
     top: 50px;
     width: 30px;
     height: 30px;
-    background: url(/images/icon/icon-close.png) no-repeat center center;
+    background: url(../images/icon/icon-close.png) no-repeat center center;
     cursor: pointer;
     border: none;
 }
@@ -1068,13 +1068,13 @@ section {
 }
 
 .light .fs-search-top::after {
-    background: url(/images/icon-search-black.png) no-repeat center center;
+    background: url(../images/icon-search-black.png) no-repeat center center;
     background-size: 13px auto;
 }
 
 .sticky .fs-search-top::after,
 .dark .fs-search-top::after {
-    background: url(/images/icon-search.png) no-repeat center center;
+    background: url(../images/icon-search.png) no-repeat center center;
     background-size: 13px auto;
 }
 
