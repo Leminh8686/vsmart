@@ -337,6 +337,9 @@
 .fs-conection-icons .fs-small-pic img{
 	width:2.6vw;
 	height:auto;
+	display: block;
+    margin: 0 auto;
+    object-fit: contain;
 }
 .fs-conection-icons .fs-small-txt p{
 	font-size:0.989vw;
