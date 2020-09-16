@@ -314,13 +314,11 @@ section {
     width: 0;
   }
 .ts-info-col {width: 47%;}
-.ts-info {height: 115vw;}
+.ts-info {height: 125vw;}
 .ts-info .h2 {padding: 1.5vw 0;}
 .popup-wrap {width: 76%;}
 .popup-close span {font-size: 12vw;}
 }
-@media (max-width:480px) {.ts-info {height: 110vw;}}
-@media (max-width:360px) {.ts-info {height: 115vw;}}
 
 @media (min-width:1024px) {
     .xd-mb {display: none;}
