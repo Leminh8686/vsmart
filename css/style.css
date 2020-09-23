@@ -342,7 +342,7 @@ html, body{
 	top:-1px;
 	width:24px;
 	height:24px;
-	background: url(/images/icon/icon-search.png) no-repeat center center;
+	background: url(../images/icon/icon-search.png) no-repeat center center;
 	background-size:13px auto;
 }
 
@@ -552,7 +552,7 @@ html, body{
 	top:50px;
 	width: 30px;
 	height:30px;
-	background: url(/images/icon/icon-close.png) no-repeat center center;
+	background: url(../images/icon/icon-close.png) no-repeat center center;
 	cursor: pointer;
 }
 
@@ -821,14 +821,14 @@ html, body{
 }
 .swiper-button-prev,
 .swiper-container-rtl .swiper-button-next {
-  background-image:url(/images/icon/prev.png);
+  background-image:url(../images/icon/prev.png);
   left:20px;
 	right:auto;
 	background-size:cover;
 }
 .swiper-button-next,
 .swiper-container-rtl .swiper-button-prev {
-	background-image:url(/images/icon/next.png);
+	background-image:url(../images/icon/next.png);
 	right:20px;
 	left:auto;
 	background-size:cover;
@@ -1589,7 +1589,7 @@ button.swiper-pagination-bullet {
 	height: 30px;
 	right: 0;
 	top: 0;
-	background: url(/images/icon/icon-close-white.png) no-repeat center center;
+	background: url(../images/icon/icon-close-white.png) no-repeat center center;
 	background-size: 14px auto;
 	cursor: pointer;
 	z-index: 1;

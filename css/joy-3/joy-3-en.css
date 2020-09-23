@@ -2317,6 +2317,8 @@ button.swiper-pagination-bullet {
         font-size: 1.3vw;
         margin-bottom: 0.3vw;
         min-height: 3.2vw;
+        display: flex;
+        align-items: center;
     }
 
     .vos-nav p {

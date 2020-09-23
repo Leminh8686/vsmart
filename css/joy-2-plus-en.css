@@ -171,7 +171,7 @@ section {
 
 .vd-btn {
     font-weight: 700;
-    background: url(/images/joy-2-plus/icon-play.png) no-repeat center right;
+    background: url(../images/joy-2-plus/icon-play.png) no-repeat center right;
     background-size: contain;
     padding: 0.15em 2em 0.15em 0;
     font-size: 3vw;
@@ -235,7 +235,7 @@ section {
 
 /** SEC 3 **/
 .sec3 {
-    background: #000 url(/images/joy-2-plus/s3-bg.jpg) no-repeat bottom left;
+    background: #000 url(../images/joy-2-plus/s3-bg.jpg) no-repeat bottom left;
     background-size: 200%;
     color: #fff;
     padding-top: 10vw;
@@ -267,7 +267,7 @@ section {
 }
 
 .s4-phone-box {
-    background: url(/images/joy-2-plus/s4-bg.jpg) no-repeat bottom center;
+    background: url(../images/joy-2-plus/s4-bg.jpg) no-repeat bottom center;
     background-size: cover;
     padding: 15vw 0 10vw;
     margin-top: 5vw;
@@ -316,6 +316,7 @@ section {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
+    text-align: center;
 }
 
     .s4-control-text > div {
@@ -426,7 +427,7 @@ section {
 /** SEC 8 **/
 .sec8 {
     padding: 10vw 0;
-    background: #000 url(/images/joy-2-plus/s8-bg-mb.jpg) no-repeat top center;
+    background: #000 url(../images/joy-2-plus/s8-bg-mb.jpg) no-repeat top center;
     background-size: 100% auto;
     color: #fff
 }
@@ -631,71 +632,71 @@ section {
 }
 
 .ts-header-info .h2.vicon-1::before {
-    background-image: url(/images/joy-2-plus/vicon-1.png)
+    background-image: url(../images/joy-2-plus/vicon-1.png)
 }
 
 .ts-header-info .h2.vicon-2::before {
-    background-image: url(/images/joy-2-plus/vicon-2.png)
+    background-image: url(../images/joy-2-plus/vicon-2.png)
 }
 
 .ts-header-info .h2.vicon-3::before {
-    background-image: url(/images/joy-2-plus/vicon-3.png)
+    background-image: url(../images/joy-2-plus/vicon-3.png)
 }
 
 .ts-info .h2.ticon-1::before {
-    background-image: url(/images/joy-2-plus/sicon-1.png)
+    background-image: url(../images/joy-2-plus/sicon-1.png)
 }
 
 .ts-info .h2.ticon-2::before {
-    background-image: url(/images/joy-2-plus/sicon-2.png)
+    background-image: url(../images/joy-2-plus/sicon-2.png)
 }
 
 .ts-info .h2.ticon-3::before {
-    background-image: url(/images/joy-2-plus/sicon-3.png)
+    background-image: url(../images/joy-2-plus/sicon-3.png)
 }
 
 .ts-info .h2.ticon-4::before {
-    background-image: url(/images/joy-2-plus/sicon-4.png)
+    background-image: url(../images/joy-2-plus/sicon-4.png)
 }
 
 .ts-info .h2.ticon-5::before {
-    background-image: url(/images/joy-2-plus/sicon-5.png)
+    background-image: url(../images/joy-2-plus/sicon-5.png)
 }
 
 .ts-info .h2.ticon-6::before {
-    background-image: url(/images/joy-2-plus/sicon-6.png)
+    background-image: url(../images/joy-2-plus/sicon-6.png)
 }
 
 .ts-info .h2.ticon-7::before {
-    background-image: url(/images/joy-2-plus/sicon-7.png)
+    background-image: url(../images/joy-2-plus/sicon-7.png)
 }
 
 .ts-info .h2.ticon-8::before {
-    background-image: url(/images/joy-2-plus/sicon-8.png)
+    background-image: url(../images/joy-2-plus/sicon-8.png)
 }
 
 .ts-info .h2.ticon-9::before {
-    background-image: url(/images/joy-2-plus/sicon-9.png)
+    background-image: url(../images/joy-2-plus/sicon-9.png)
 }
 
 .ts-info .h2.ticon-10::before {
-    background-image: url(/images/joy-2-plus/sicon-10.png)
+    background-image: url(../images/joy-2-plus/sicon-10.png)
 }
 
 .ts-info .h2.ticon-11::before {
-    background-image: url(/images/joy-2-plus/sicon-11.png)
+    background-image: url(../images/joy-2-plus/sicon-11.png)
 }
 
 .ts-info .h2.ticon-12::before {
-    background-image: url(/images/joy-2-plus/sicon-12.png)
+    background-image: url(../images/joy-2-plus/sicon-12.png)
 }
 
 .ts-info .h2.ticon-13::before {
-    background-image: url(/images/joy-2-plus/sicon-13.png)
+    background-image: url(../images/joy-2-plus/sicon-13.png)
 }
 
 .ts-info .h2.ticon-14::before {
-    background-image: url(/images/joy-2-plus/sicon-14.png)
+    background-image: url(../images/joy-2-plus/sicon-14.png)
 }
 
 /** POPUP **/
@@ -1020,7 +1021,7 @@ section {
 
     .sec8 {
         padding: 10vw 0;
-        background: #000 url(/images/joy-2-plus/s8-bg.jpg) no-repeat top center;
+        background: #000 url(../images/joy-2-plus/s8-bg.jpg) no-repeat top center;
         background-size: 100% auto;
         justify-content: center;
     }
@@ -1169,6 +1170,7 @@ section {
 @media (min-width:1366px) {
     .ts-info {
         height: 38vw;
+        padding-top: 10px;
     }
 }
 .u-header__section {

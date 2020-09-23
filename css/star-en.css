@@ -123,11 +123,11 @@
   padding-top: 215.8%;
 }
 .fs-box-camera .swiper-button-prev {
-  background: url(/images/icon/arrow-prev.png) no-repeat center center;
+  background: url(../images/icon/arrow-prev.png) no-repeat center center;
   background-size: cover;
 }
 .fs-box-camera .swiper-button-next{
-  background: url(/images/icon/arrow-next.png) no-repeat center center;
+  background: url(../images/icon/arrow-next.png) no-repeat center center;
   background-size: cover;
 }
 
@@ -256,7 +256,7 @@
    .is-experience .fs-area-txt .fs-sp.star-desc{
     font-size: 2.3vw;
    }
-  .is-chip { background-image: url(/images/star/banner-star-mobile-3.jpg); background-size: cover; background-position: center bottom; }
+  .is-chip { background-image: url(../images/star/banner-star-mobile-3.jpg); background-size: cover; background-position: center bottom; }
   .is-chip .fs-has-layout { padding-top: 0; }
   .is-chip .img-hand-phone { position: relative; float: right; width: 91.9444444444vw; height: auto; top: -12.6851851852vw; }
   .is-chip .img-chip { position: absolute; left: 50%; -webkit-transform: translateX(-50%); transform: translateX(-50%); top: 35.5vw; width: 18.5%; }
