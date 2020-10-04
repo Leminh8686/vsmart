@@ -699,6 +699,10 @@ section {
     background-image: url(../images/joy-2-plus/sicon-14.png)
 }
 
+.ts-info .h2.ticon-15::before {
+    background-image: url(../images/icon/operation.png)
+}
+
 /** POPUP **/
 .embed-container {
     position: relative;
