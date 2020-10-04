@@ -32,7 +32,7 @@
 .why-box {padding: 10vw;}
     .why-box .h1 {font-size: 5vw;}
     .bnf-txt {font-size: 2.5vw;}
-.bnf-info .h3 {text-transform: uppercase; font-size: 3.2vw; white-space: nowrap;}
+.bnf-info .h3 {text-transform: uppercase; font-size: 3.2vw;}
 .bnf-info {padding-left: 14vw; position: relative; margin: 6vw auto;}
 .bnf-info::before {content:""; position: absolute; top:0; left:0; background-repeat: no-repeat; background-size: contain; width: 12vw; height: 12vw;}
     .wicon-1::before {background-image: url(../images/bnf-icon-1.png)}
@@ -147,14 +147,14 @@
     .post-item {margin-bottom:1vw;}
     .post-short {font-size:1.5vw; padding:1.5vw;}
 /** WHY **/
-.why-box {position:absolute; bottom:2.5vw; left:0; padding:0 0 0 5vw; width: 53%;}
+.why-box {position:absolute; bottom:1.2vw; left:0; padding:0 0 0 5vw; width: 53%;}
     .why-box .h1 {font-size: 1.55vw;}
     .bnf-txt {font-size: 0.7vw; text-align: justify;}
 .bnf-group {display:inline-block; width:49%; vertical-align: top; padding-right:5%}
 .bnf-info .h3 {font-size: 0.8vw; margin-bottom: 0.25vw;}
 .bnf-info {padding-left: 3vw; position: relative; margin:1.3vw auto;}
 .bnf-info::before {width: 2.5vw; height: 2.5vw;}
-.why-cta .xd-btn {font-size: 0.9vw}
+.why-cta .xd-btn {font-size: 0.9vw;display: none;}
 
 .why-pic .bnf-pic.xd-mb {display: none;}
 .why-pic .active.xd-pc {display: block;}
