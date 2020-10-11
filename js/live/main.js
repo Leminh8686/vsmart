@@ -56,7 +56,6 @@ main = function () {
         var sec8Pos = section8.position().top;
         var sec9Pos = section9.position().top;
         var sec10Pos = section10.position().top;
-        var sec11Pos = section11.position().top;
 
         var sec1H = section1.height();
         var sec2H = section2.height();
@@ -68,7 +67,6 @@ main = function () {
         var sec8H = section8.height();
         var sec9H = section9.height();
         var sec10H = section10.height();
-        var sec11H = section11.height();
         if (scrollPos > sec1Pos && scrollPos < sec1Pos + sec1H / 3 && !anim1) {
             anim1 = true;
             var pos1 = 25
