@@ -24,20 +24,6 @@ $('.product-toggle-tivi').click(function () {
 });
 
 var pathBase = '/';
-var setLanguage = document.getElementById('setLanguage');
-let currentLanguage = $('#_currentLanguage').val();
-//setLanguage.value = currentLanguage;
-
-setLanguage.onchange = function () {
-    let currentUrl = window.location.href;
-    let host = window.location.host;
-    let selectedLanguage = this.value;
-    let redirectUrl = currentUrl.replace(host + '/' + currentLanguage, host + '/' + selectedLanguage);
-    if (redirectUrl === currentUrl) {
-        redirectUrl = currentUrl + selectedLanguage;
-    }
-    window.location.href = redirectUrl;
-}
 
 
 $('.menu_toggler').click(function () {
@@ -52,10 +38,5 @@ $('.menu_toggler').click(function () {
             $('.menu_primary').removeClass('light');
         }
         $('.menu_primary').addClass('dark');
-        let chooseLanguage = $('#setLanguage').hasClass('selectLangDark');
-        if (chooseLanguage === true) {
-            $('#setLanguage').removeClass('selectLangDark');
-        }
-        $('#setLanguage').addClass('selectedLangLight');
     }
 });
